@@ -171,7 +171,8 @@ def run_test_next_prime():
     # Test 6:
     print()
     print('TEST STARTED!  Has it ended?')
-
+    expected = 7
+    actual = next_prime(7)
     print('TEST ENDED!')
 
 
